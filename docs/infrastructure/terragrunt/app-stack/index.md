@@ -1,0 +1,1 @@
+[application-stack](https://raw.githubusercontent.com/MikalaiYatsyna/terragrunt-stack/master/README.md ':include')

@@ -1,0 +1,1 @@
+[platform-core](https://raw.githubusercontent.com/MikalaiYatsyna/terragrunt-infra-core/master/README.md ':include')
