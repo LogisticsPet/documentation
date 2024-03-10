@@ -1,0 +1,1 @@
+[docs](https://raw.githubusercontent.com/MikalaiYatsyna/vault-init-image/main/README.md ':include')
