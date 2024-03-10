@@ -1,2 +1,0 @@
-- [Terraform modules](../index.md)
-- [Kubernetes](index.md)
