@@ -1,0 +1,1047 @@
+Index: docs/infrastructure/terraform/kubernetes/_sidebar.md
+===================================================================
+diff --git a/docs/infrastructure/terraform/kubernetes/_sidebar.md b/docs/infrastructure/terraform/kubernetes/_sidebar.md
+deleted file mode 100644
+--- a/docs/infrastructure/terraform/kubernetes/_sidebar.md	(revision 19b38543cd601e60b1f51b657f1283693adf38f0)
++++ /dev/null	(revision 19b38543cd601e60b1f51b657f1283693adf38f0)
+@@ -1,2 +0,0 @@
+-- [Terraform modules](../index.md)
+-- [Kubernetes](index.md)
+\ No newline at end of file
+Index: docs/infrastructure/terraform/kubernetes/assets/cluster.drawio
+===================================================================
+diff --git a/docs/infrastructure/terraform/kubernetes/assets/cluster.drawio b/docs/infrastructure/terraform/kubernetes/assets/cluster.drawio
+deleted file mode 100644
+--- a/docs/infrastructure/terraform/kubernetes/assets/cluster.drawio	(revision 19b38543cd601e60b1f51b657f1283693adf38f0)
++++ /dev/null	(revision 19b38543cd601e60b1f51b657f1283693adf38f0)
+@@ -1,186 +0,0 @@
+-<mxfile modified="2024-03-07T17:36:01.592Z" host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="RtMPqh2QerqDdijcr3oR" version="23.1.5" type="device">
+-  <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
+-    <mxGraphModel dx="1026" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+-      <root>
+-        <mxCell id="0" />
+-        <mxCell id="1" parent="0" />
+-        <mxCell id="UEzPUAAOIrF-is8g5C7q-2" value="AWS Cloud" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud_alt;strokeColor=#232F3E;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#232F3E;dashed=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;" parent="1" vertex="1">
+-          <mxGeometry x="435.5" y="175" width="630" height="486" as="geometry" />
+-        </mxCell>
+-        <mxCell id="UEzPUAAOIrF-is8g5C7q-1" value="Corporate data center" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_corporate_data_center;strokeColor=#5A6C86;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#5A6C86;dashed=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;" parent="1" vertex="1">
+-          <mxGeometry x="11.5" y="175" width="404" height="486" as="geometry" />
+-        </mxCell>
+-        <mxCell id="UEzPUAAOIrF-is8g5C7q-5" value="" style="whiteSpace=wrap;html=1;dashed=0;fontColor=#AAB7B8;fontStyle=0;align=left;verticalAlign=top;strokeColor=#248814;fillColor=none;gradientColor=none;spacingLeft=30;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;" parent="1" vertex="1">
+-          <mxGeometry x="175.5" y="281" width="210" height="300" as="geometry" />
+-        </mxCell>
+-        <mxCell id="UEzPUAAOIrF-is8g5C7q-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#545B64;strokeWidth=2;endFill=0;endArrow=open;startArrow=none;" parent="1" source="UEzPUAAOIrF-is8g5C7q-6" target="UEzPUAAOIrF-is8g5C7q-8" edge="1">
+-          <mxGeometry relative="1" as="geometry" />
+-        </mxCell>
+-        <mxCell id="UEzPUAAOIrF-is8g5C7q-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#545B64;strokeWidth=2;endFill=0;endArrow=open;startArrow=none;" parent="1" source="UEzPUAAOIrF-is8g5C7q-7" target="UEzPUAAOIrF-is8g5C7q-9" edge="1">
+-          <mxGeometry relative="1" as="geometry" />
+-        </mxCell>
+-        <mxCell id="UEzPUAAOIrF-is8g5C7q-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#545B64;strokeWidth=2;endFill=0;endArrow=open;startArrow=none;" parent="1" source="UEzPUAAOIrF-is8g5C7q-11" target="UEzPUAAOIrF-is8g5C7q-13" edge="1">
+-          <mxGeometry relative="1" as="geometry" />
+-        </mxCell>
+-        <mxCell id="UEzPUAAOIrF-is8g5C7q-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#545B64;strokeWidth=2;endFill=0;endArrow=open;startArrow=none;" parent="1" source="UEzPUAAOIrF-is8g5C7q-12" target="UEzPUAAOIrF-is8g5C7q-13" edge="1">
+-          <mxGeometry relative="1" as="geometry">
+-            <Array as="points">
+-              <mxPoint x="615.5" y="496" />
+-              <mxPoint x="615.5" y="360" />
+-            </Array>
+-          </mxGeometry>
+-        </mxCell>
+-        <mxCell id="UEzPUAAOIrF-is8g5C7q-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#545B64;strokeWidth=2;endFill=0;endArrow=open;startArrow=none;" parent="1" source="UEzPUAAOIrF-is8g5C7q-13" target="UEzPUAAOIrF-is8g5C7q-14" edge="1">
+-          <mxGeometry relative="1" as="geometry" />
+-        </mxCell>
+-        <mxCell id="UEzPUAAOIrF-is8g5C7q-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#545B64;strokeWidth=2;endFill=0;endArrow=open;startArrow=none;" parent="1" source="UEzPUAAOIrF-is8g5C7q-13" target="UEzPUAAOIrF-is8g5C7q-16" edge="1">
+-          <mxGeometry relative="1" as="geometry" />
+-        </mxCell>
+-        <mxCell id="UEzPUAAOIrF-is8g5C7q-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#545B64;strokeWidth=2;endFill=0;endArrow=open;startArrow=none;" parent="1" source="UEzPUAAOIrF-is8g5C7q-15" target="UEzPUAAOIrF-is8g5C7q-13" edge="1">
+-          <mxGeometry relative="1" as="geometry" />
+-        </mxCell>
+-        <mxCell id="UEzPUAAOIrF-is8g5C7q-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#545B64;strokeWidth=2;endFill=0;endArrow=open;startArrow=none;" parent="1" source="UEzPUAAOIrF-is8g5C7q-15" target="UEzPUAAOIrF-is8g5C7q-18" edge="1">
+-          <mxGeometry relative="1" as="geometry" />
+-        </mxCell>
+-        <mxCell id="UEzPUAAOIrF-is8g5C7q-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#545B64;strokeWidth=2;endFill=0;endArrow=open;startArrow=none;" parent="1" source="UEzPUAAOIrF-is8g5C7q-15" target="UEzPUAAOIrF-is8g5C7q-17" edge="1">
+-          <mxGeometry relative="1" as="geometry" />
+-        </mxCell>
+-        <mxCell id="UEzPUAAOIrF-is8g5C7q-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#545B64;strokeWidth=2;endFill=0;endArrow=open;startArrow=none;" parent="1" source="UEzPUAAOIrF-is8g5C7q-9" target="UEzPUAAOIrF-is8g5C7q-12" edge="1">
+-          <mxGeometry relative="1" as="geometry">
+-            <mxPoint x="126.41011523687575" y="546.0689655172414" as="sourcePoint" />
+-            <mxPoint x="273.5" y="539.8620689655172" as="targetPoint" />
+-          </mxGeometry>
+-        </mxCell>
+-        <mxCell id="UEzPUAAOIrF-is8g5C7q-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#545B64;strokeWidth=2;endFill=0;endArrow=open;startArrow=none;" parent="1" source="UEzPUAAOIrF-is8g5C7q-8" target="UEzPUAAOIrF-is8g5C7q-11" edge="1">
+-          <mxGeometry relative="1" as="geometry">
+-            <mxPoint x="136.41011523687575" y="556.0689655172414" as="sourcePoint" />
+-            <mxPoint x="283.5" y="549.8620689655172" as="targetPoint" />
+-          </mxGeometry>
+-        </mxCell>
+-        <mxCell id="-QjtrjUzRDEMRZ5MF8oH-9" value="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;" parent="1" vertex="1">
+-          <mxGeometry x="122" y="244" width="40" height="38" as="geometry" />
+-        </mxCell>
+-        <mxCell id="-QjtrjUzRDEMRZ5MF8oH-47" value="Title text" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=30;fontStyle=1" parent="1" vertex="1">
+-          <mxGeometry x="12" y="65.5" width="130" height="40" as="geometry" />
+-        </mxCell>
+-        <mxCell id="-QjtrjUzRDEMRZ5MF8oH-48" value="Subtitle text&lt;br style=&quot;font-size: 16px&quot;&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16" parent="1" vertex="1">
+-          <mxGeometry x="12" y="115.5" width="100" height="20" as="geometry" />
+-        </mxCell>
+-        <mxCell id="SCVMTBWpLvtzJIhz15lM-1" value="" style="line;strokeWidth=2;html=1;fontSize=14;" parent="1" vertex="1">
+-          <mxGeometry x="8" y="140.5" width="1060" height="10" as="geometry" />
+-        </mxCell>
+-        <mxCell id="7OVz4w7n9kzEPWy-4BBC-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EAEDED;fontSize=22;fontColor=#FFFFFF;strokeColor=none;labelBackgroundColor=none;" parent="1" vertex="1">
+-          <mxGeometry x="1106.5" y="52" width="539" height="969" as="geometry" />
+-        </mxCell>
+-        <mxCell id="7OVz4w7n9kzEPWy-4BBC-4" value="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="1" vertex="1">
+-          <mxGeometry x="1124.5" y="64" width="40" height="38" as="geometry" />
+-        </mxCell>
+-        <mxCell id="7OVz4w7n9kzEPWy-4BBC-5" value="2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="1" vertex="1">
+-          <mxGeometry x="1123" y="186" width="40" height="38" as="geometry" />
+-        </mxCell>
+-        <mxCell id="7OVz4w7n9kzEPWy-4BBC-6" value="3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="1" vertex="1">
+-          <mxGeometry x="1123" y="306" width="40" height="38" as="geometry" />
+-        </mxCell>
+-        <mxCell id="7OVz4w7n9kzEPWy-4BBC-7" value="4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="1" vertex="1">
+-          <mxGeometry x="1123" y="420" width="40" height="38" as="geometry" />
+-        </mxCell>
+-        <mxCell id="7OVz4w7n9kzEPWy-4BBC-8" value="5" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="1" vertex="1">
+-          <mxGeometry x="1124.5" y="537" width="40" height="38" as="geometry" />
+-        </mxCell>
+-        <mxCell id="7OVz4w7n9kzEPWy-4BBC-9" value="6" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="1" vertex="1">
+-          <mxGeometry x="1125.5" y="652" width="40" height="38" as="geometry" />
+-        </mxCell>
+-        <mxCell id="7OVz4w7n9kzEPWy-4BBC-10" value="7" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="1" vertex="1">
+-          <mxGeometry x="1125" y="768" width="40" height="38" as="geometry" />
+-        </mxCell>
+-        <mxCell id="7OVz4w7n9kzEPWy-4BBC-11" value="8" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="1" vertex="1">
+-          <mxGeometry x="1125.5" y="886" width="40" height="38" as="geometry" />
+-        </mxCell>
+-        <mxCell id="7OVz4w7n9kzEPWy-4BBC-13" value="&lt;span&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/span&gt;&lt;br&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+-          <mxGeometry x="1176" y="63.5" width="449" height="118" as="geometry" />
+-        </mxCell>
+-        <mxCell id="7OVz4w7n9kzEPWy-4BBC-14" value="&lt;span&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/span&gt;&lt;br&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+-          <mxGeometry x="1175" y="186.5" width="450" height="115" as="geometry" />
+-        </mxCell>
+-        <mxCell id="7OVz4w7n9kzEPWy-4BBC-15" value="&lt;span&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/span&gt;&lt;br&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+-          <mxGeometry x="1175" y="304.5" width="450" height="117" as="geometry" />
+-        </mxCell>
+-        <mxCell id="7OVz4w7n9kzEPWy-4BBC-16" value="&lt;span&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/span&gt;&lt;br&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+-          <mxGeometry x="1175" y="420.5" width="450" height="121" as="geometry" />
+-        </mxCell>
+-        <mxCell id="7OVz4w7n9kzEPWy-4BBC-17" value="&lt;span&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/span&gt;&lt;br&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+-          <mxGeometry x="1176" y="537.5" width="449" height="114" as="geometry" />
+-        </mxCell>
+-        <mxCell id="7OVz4w7n9kzEPWy-4BBC-18" value="&lt;span&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/span&gt;&lt;br&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+-          <mxGeometry x="1176" y="653.5" width="450" height="118" as="geometry" />
+-        </mxCell>
+-        <mxCell id="7OVz4w7n9kzEPWy-4BBC-19" value="&lt;span&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/span&gt;&lt;br&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+-          <mxGeometry x="1176" y="768.5" width="449" height="113" as="geometry" />
+-        </mxCell>
+-        <mxCell id="7OVz4w7n9kzEPWy-4BBC-20" value="&lt;span&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/span&gt;&lt;br&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+-          <mxGeometry x="1176" y="887.5" width="449" height="124" as="geometry" />
+-        </mxCell>
+-        <mxCell id="UEzPUAAOIrF-is8g5C7q-6" value="Factory" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#277116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.factory;" parent="1" vertex="1">
+-          <mxGeometry x="38.500000000000156" y="320.99999999999994" width="78" height="78" as="geometry" />
+-        </mxCell>
+-        <mxCell id="UEzPUAAOIrF-is8g5C7q-7" value="Factory&lt;br&gt;" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#277116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.factory;" parent="1" vertex="1">
+-          <mxGeometry x="38.500000000000156" y="456.99999999999994" width="78" height="78" as="geometry" />
+-        </mxCell>
+-        <mxCell id="UEzPUAAOIrF-is8g5C7q-8" value="Channel" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#277116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.iot_analytics_channel;" parent="1" vertex="1">
+-          <mxGeometry x="263.5" y="320.99999999999983" width="65" height="78" as="geometry" />
+-        </mxCell>
+-        <mxCell id="UEzPUAAOIrF-is8g5C7q-9" value="AWS IoT SiteWise&lt;br&gt;Connector&lt;br&gt;" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.iot_sitewise;" parent="1" vertex="1">
+-          <mxGeometry x="257" y="457" width="78" height="78" as="geometry" />
+-        </mxCell>
+-        <mxCell id="UEzPUAAOIrF-is8g5C7q-10" value="2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;" parent="1" vertex="1">
+-          <mxGeometry x="335" y="306" width="40" height="38" as="geometry" />
+-        </mxCell>
+-        <mxCell id="UEzPUAAOIrF-is8g5C7q-11" value="AWS IoT Core" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.iot_core;" parent="1" vertex="1">
+-          <mxGeometry x="485.5000000000001" y="320.99999999999983" width="78" height="78" as="geometry" />
+-        </mxCell>
+-        <mxCell id="UEzPUAAOIrF-is8g5C7q-12" value="AWS IoT SiteWise" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.iot_sitewise;" parent="1" vertex="1">
+-          <mxGeometry x="485.5000000000001" y="457" width="78" height="78" as="geometry" />
+-        </mxCell>
+-        <mxCell id="UEzPUAAOIrF-is8g5C7q-13" value="AWS IoT Analytics" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.iot_analytics;labelBackgroundColor=#ffffff;spacingTop=6;" parent="1" vertex="1">
+-          <mxGeometry x="681.9999999999997" y="320.99999999999994" width="78" height="78" as="geometry" />
+-        </mxCell>
+-        <mxCell id="UEzPUAAOIrF-is8g5C7q-14" value="Notebook" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#116D5B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.sagemaker_notebook;labelBackgroundColor=#ffffff;spacingTop=6;" parent="1" vertex="1">
+-          <mxGeometry x="701.4999999999999" y="226" width="39" height="45" as="geometry" />
+-        </mxCell>
+-        <mxCell id="UEzPUAAOIrF-is8g5C7q-15" value="docker container" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#D05C17;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.container_1;labelBackgroundColor=#ffffff;" parent="1" vertex="1">
+-          <mxGeometry x="699.0000000000001" y="481.9999999999999" width="44" height="28" as="geometry" />
+-        </mxCell>
+-        <mxCell id="UEzPUAAOIrF-is8g5C7q-16" value="Amazon QuickSight" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.quicksight;" parent="1" vertex="1">
+-          <mxGeometry x="895.5000000000001" y="320.99999999999983" width="78" height="78" as="geometry" />
+-        </mxCell>
+-        <mxCell id="UEzPUAAOIrF-is8g5C7q-17" value="Amazon SNS" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#F34482;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sns;" parent="1" vertex="1">
+-          <mxGeometry x="895.5000000000001" y="457" width="78" height="78" as="geometry" />
+-        </mxCell>
+-        <mxCell id="UEzPUAAOIrF-is8g5C7q-18" value="Amazon ECR" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ecr;" parent="1" vertex="1">
+-          <mxGeometry x="681.9999999999997" y="542" width="78" height="78" as="geometry" />
+-        </mxCell>
+-        <mxCell id="UEzPUAAOIrF-is8g5C7q-19" value="3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;" parent="1" vertex="1">
+-          <mxGeometry x="445.5" y="562" width="40" height="38" as="geometry" />
+-        </mxCell>
+-        <mxCell id="UEzPUAAOIrF-is8g5C7q-20" value="4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;" parent="1" vertex="1">
+-          <mxGeometry x="655.5" y="210.5" width="40" height="38" as="geometry" />
+-        </mxCell>
+-        <mxCell id="UEzPUAAOIrF-is8g5C7q-21" value="5" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;" parent="1" vertex="1">
+-          <mxGeometry x="635.5" y="291" width="40" height="38" as="geometry" />
+-        </mxCell>
+-        <mxCell id="UEzPUAAOIrF-is8g5C7q-22" value="6" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;" parent="1" vertex="1">
+-          <mxGeometry x="645.5" y="463" width="40" height="38" as="geometry" />
+-        </mxCell>
+-        <mxCell id="UEzPUAAOIrF-is8g5C7q-23" value="7" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;" parent="1" vertex="1">
+-          <mxGeometry x="845.5" y="293" width="40" height="38" as="geometry" />
+-        </mxCell>
+-        <mxCell id="UEzPUAAOIrF-is8g5C7q-24" value="8" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;" parent="1" vertex="1">
+-          <mxGeometry x="845.5" y="431" width="40" height="38" as="geometry" />
+-        </mxCell>
+-        <mxCell id="UEzPUAAOIrF-is8g5C7q-4" value="AWS IoT&lt;br&gt;Greengrass" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=middle;verticalAlign=middle;align=left;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.greengrass;labelPosition=right;" parent="1" vertex="1">
+-          <mxGeometry x="175.5" y="281" width="40" height="40" as="geometry" />
+-        </mxCell>
+-      </root>
+-    </mxGraphModel>
+-  </diagram>
+-</mxfile>
+Index: docs/infrastructure/terraform/route53/index.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docs/infrastructure/terraform/route53/index.md b/docs/infrastructure/terraform/route53/index.md
+new file mode 100644
+--- /dev/null	(date 1710073837147)
++++ b/docs/infrastructure/terraform/route53/index.md	(date 1710073837147)
+@@ -0,0 +1,1 @@
++[docs](http://raw.githubusercontent.com/MikalaiYatsyna/terraform-aws-route53/master/README.md ':include')
+\ No newline at end of file
+Index: docs/infrastructure/index.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Description\n\nThis section provides an overview of the infrastructure components used to build and deploy our application.\n\n## Overview\n\nBrief description of the strategy for constructing infrastructure.\n\n## Tooling\n\nList of tools used in constructing the infrastructure.\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docs/infrastructure/index.md b/docs/infrastructure/index.md
+--- a/docs/infrastructure/index.md	(revision 19b38543cd601e60b1f51b657f1283693adf38f0)
++++ b/docs/infrastructure/index.md	(date 1710065517057)
+@@ -1,11 +1,28 @@
+-# Description
++# Overview
++Building infrastructure using Infrastructure as Code (IaaC) has become essential in modern software development practices. It provides numerous benefits such as version control, reproducibility, scalability, and automation. By defining infrastructure in code, teams can manage and deploy complex environments more efficiently, leading to faster development cycles and improved reliability.
++
++# Building Blocks
++
++There are numerous single-purpose Terraform modules available, each offering specific functionalities tailored for building infrastructure. These modules streamline the deployment process, enhance reusability, and promote consistency across environments. In contrast, when leveraging Terragrunt, these modules are organized into configurations, facilitating modularization and abstraction. This approach simplifies management, promotes code reuse, and enables better separation of concerns, ultimately improving maintainability and scalability of the infrastructure.
++
++## Terraform Modules
++Terraform modules are reusable, encapsulated components that represent infrastructure resources or configurations. They enable modularization of infrastructure code, promoting reusability, consistency, and scalability. By abstracting complex infrastructure components into modular units, Terraform modules simplify management and facilitate collaboration among teams.
++
++For more information, refer to the [Terraform Modules documentation.](terraform/index.md)
+ 
+-This section provides an overview of the infrastructure components used to build and deploy our application.
++## Terragrunt Stacks
+ 
+-## Overview
++Terragrunt stacks represent configurations that orchestrate Terraform modules to provision infrastructure. Stacks provide an abstraction layer for managing complex infrastructure deployments, allowing users to organize and reuse modules efficiently. Terragrunt enhances Terraform workflows by providing additional features such as remote state management, dependency handling, and configuration templating.
+ 
+-Brief description of the strategy for constructing infrastructure.
++For more details, consult the [Terragrunt documentation.](terragrunt/index.md)
+ 
+-## Tooling
++## Packer templates
+ 
+-List of tools used in constructing the infrastructure.
++Packer templates are HCL files used to define the configuration for building machine images (AMI, VHD, etc.). They enable the automated creation of identical machine images for multiple platforms from a single source configuration. Packer templates specify the builders, provisioners, and post-processors required to create and customize machine images efficiently.
++
++For more information, see the [Packer templates documentation.](packer/index.md)
++
++# Tooling used to built infrastructure
++- Terragrunt
++- Terraform
++- Packer
+\ No newline at end of file
+Index: docs/infrastructure/terraform/cloudflare/index.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docs/infrastructure/terraform/cloudflare/index.md b/docs/infrastructure/terraform/cloudflare/index.md
+new file mode 100644
+--- /dev/null	(date 1710074409215)
++++ b/docs/infrastructure/terraform/cloudflare/index.md	(date 1710074409215)
+@@ -0,0 +1,1 @@
++[docs](http://raw.githubusercontent.com/MikalaiYatsyna/terraform-cloudflare-dns-records/master/README.md ':include')
+\ No newline at end of file
+Index: docs/infrastructure/terragrunt/index.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Terragrunt Stacks Overview <!-- {docsify-ignore} -->\n\nWelcome to the overview page for Terragrunt stacks used to deploy infrastructure. This document provides a high-level overview of the Terragrunt stacks and their role in managing and deploying infrastructure components.\n\n## Purpose <!-- {docsify-ignore} -->\n\nThe purpose of this document is to provide stakeholders with a broad understanding of the Terragrunt stacks used in infrastructure deployment process. It serves as a gateway to more detailed documentation for each individual stack.\n\n## Stacks Overview <!-- {docsify-ignore} -->\n\n- **Stack 1: [Stack Name 1]**  \n  Description: Brief description of the stack's purpose and functionality.  \n  Link to detailed documentation: [Stack Documentation Link]\n\n- **Stack 2: [Stack Name 2]**  \n  Description: Brief description of the stack's purpose and functionality.  \n  Link to detailed documentation: [Stack Documentation Link]\n\n- **Stack 3: [Stack Name 3]**  \n  Description: Brief description of the stack's purpose and functionality.  \n  Link to detailed documentation: [Stack Documentation Link]\n\n## Interaction Overview <!-- {docsify-ignore} -->\n\nProvide a high-level overview of how the Terragrunt stacks interact with each other and contribute to the overall infrastructure deployment process. Describe any dependencies, inheritance, or shared configurations between stacks.
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docs/infrastructure/terragrunt/index.md b/docs/infrastructure/terragrunt/index.md
+--- a/docs/infrastructure/terragrunt/index.md	(revision 19b38543cd601e60b1f51b657f1283693adf38f0)
++++ b/docs/infrastructure/terragrunt/index.md	(date 1710068812877)
+@@ -8,17 +8,15 @@
+ 
+ ## Stacks Overview <!-- {docsify-ignore} -->
+ 
+-- **Stack 1: [Stack Name 1]**  
++- **Stack 1: Platform Core**  
+   Description: Brief description of the stack's purpose and functionality.  
+-  Link to detailed documentation: [Stack Documentation Link]
++  Link to detailed documentation: [Platform Core Documentation](./core/index.md)  
++  Link to source code: [GitHub](https://github.com/MikalaiYatsyna/terragrunt-infra-core)
+ 
+-- **Stack 2: [Stack Name 2]**  
++- **Stack 2: Application Stack**  
+   Description: Brief description of the stack's purpose and functionality.  
+-  Link to detailed documentation: [Stack Documentation Link]
+-
+-- **Stack 3: [Stack Name 3]**  
+-  Description: Brief description of the stack's purpose and functionality.  
+-  Link to detailed documentation: [Stack Documentation Link]
++  Link to detailed documentation: [Application Stack Documentation](app-stack/index.md)  
++  Link to source code: [GitHub](https://github.com/MikalaiYatsyna/terragrunt-stack)
+ 
+ ## Interaction Overview <!-- {docsify-ignore} -->
+ 
+Index: docs/infrastructure/terraform/cloudflare/_sidebar.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docs/infrastructure/terraform/cloudflare/_sidebar.md b/docs/infrastructure/terraform/cloudflare/_sidebar.md
+new file mode 100644
+--- /dev/null	(date 1710075510050)
++++ b/docs/infrastructure/terraform/cloudflare/_sidebar.md	(date 1710075510050)
+@@ -0,0 +1,18 @@
++- [Home](/)
++- [Infrastructure Overview](../../index.md) 
++- [Terraform modules](../index.md)
++- [Terraform state](../tf-state/index.md)
++- [AWS ECR](../ecr/index.md)
++- [AWS Route 53](../route53/index.md)
++- [CloudFlare DNS](./index.md)
++- [AWS EKS](../eks/index.md)
++- [AWS EKS Nginx Ingress](../ingress/index.md)
++- [AWS EKS Autoscaler](../autoscaler/index.md)
++- [AWS EKS Cert Manager](../cert-manager/index.md)
++- [AWS EKS Cert Manager Issuer](../cert-issuer/index.md)
++- [AWS EKS External DNS](../external-dns/index.md)
++- [Hashicorp Consul](../consul/index.md)
++- [Hashicorp Vault](../vault/index.md)
++- [Hashicorp Vault Kubernetes Auth](../vault-k8s/index.md)
++- [Hashicorp Vault Secret Backends](../vault-backends/index.md)
++- [Argo CD](../argo-cd/index.md)
+Index: docs/infrastructure/terraform/route53/_sidebar.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docs/infrastructure/terraform/route53/_sidebar.md b/docs/infrastructure/terraform/route53/_sidebar.md
+new file mode 100644
+--- /dev/null	(date 1710075850354)
++++ b/docs/infrastructure/terraform/route53/_sidebar.md	(date 1710075850354)
+@@ -0,0 +1,18 @@
++- [Home](/)
++- [Infrastructure Overview](../../index.md) 
++- [Terraform modules](../index.md)
++- [Terraform state](../tf-state/index.md)
++- [AWS ECR](../ecr/index.md)
++- [AWS Route 53](./index.md)
++- [CloudFlare DNS](../cloudflare/index.md)
++- [AWS EKS](../eks/index.md)
++- [AWS EKS Nginx Ingress](../ingress/index.md)
++- [AWS EKS Autoscaler](../autoscaler/index.md)
++- [AWS EKS Cert Manager](../cert-manager/index.md)
++- [AWS EKS Cert Manager Issuer](../cert-issuer/index.md)
++- [AWS EKS External DNS](../external-dns/index.md)
++- [Hashicorp Consul](../consul/index.md)
++- [Hashicorp Vault](../vault/index.md)
++- [Hashicorp Vault Kubernetes Auth](../vault-k8s/index.md)
++- [Hashicorp Vault Secret Backends](../vault-backends/index.md)
++- [Argo CD](../argo-cd/index.md)
+Index: docs/infrastructure/terraform/index.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Terraform Modules <!-- {docsify-ignore} -->\n\nThis document provides an overview of the Terraform modules used to build the infrastructure for project. Terraform modules encapsulate reusable infrastructure components, making it easier to manage, maintain, and scale infrastructure in a consistent and efficient manner.\n\n## Purpose <!-- {docsify-ignore} -->\n\nThe purpose of this document is to provide a high-level understanding of the infrastructure components and their interactions, as well as to serve as a reference for the detailed configurations provided in separate documentation for each module.\n\n## Modules Overview <!-- {docsify-ignore} -->\n\n\n- **[terraform-aws-ecr](./ecr/index.md)**   \n  Description: Terraform configuration script to set up an Elastic Container Registry (ECR) on AWS.  \n  Link to source code: [GitHub](https://github.com/MikalaiYatsyna/terraform-aws-ecr)\n\n- **[terraform-aws-eks](./ecr/index.md)**   \n  Description:   Terraform configuration script to set up an Elastic Kubernetes Service Cluster (EKS) on AWS.   \n  Link to source code: [GitHub](https://github.com/MikalaiYatsyna/terraform-aws-eks)\n\n## Interaction Overview <!-- {docsify-ignore} -->\n\nTo maintain the DRYness of the Terraform configuration, interactions between modules are abstracted using Terragrunt.\nMore details about Terragrunt stacks approach can be found [here.](../terragrunt/index.md)\n\n## Next Steps <!-- {docsify-ignore} -->\n\nRefer stakeholders to the detailed documentation for each module to understand specific configurations, usage, and best practices. Encourage feedback and collaboration to continuously improve and evolve infrastructure architecture.\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docs/infrastructure/terraform/index.md b/docs/infrastructure/terraform/index.md
+--- a/docs/infrastructure/terraform/index.md	(revision 19b38543cd601e60b1f51b657f1283693adf38f0)
++++ b/docs/infrastructure/terraform/index.md	(date 1710073251205)
+@@ -1,27 +1,75 @@
+ # Terraform Modules <!-- {docsify-ignore} -->
+ 
+-This document provides an overview of the Terraform modules used to build the infrastructure for project. Terraform modules encapsulate reusable infrastructure components, making it easier to manage, maintain, and scale infrastructure in a consistent and efficient manner.
+-
+-## Purpose <!-- {docsify-ignore} -->
++## Purpose  <!-- {docsify-ignore} -->
+ 
+-The purpose of this document is to provide a high-level understanding of the infrastructure components and their interactions, as well as to serve as a reference for the detailed configurations provided in separate documentation for each module.
++This document provides an overview of the Terraform modules used to build the infrastructure for the project. Terraform modules encapsulate reusable infrastructure components, making it easier to manage, maintain, and scale infrastructure in a consistent and efficient manner. The purpose of this document is to provide a high-level understanding of the infrastructure components and their interactions, as well as to serve as a reference for the detailed configurations provided in separate documentation for each module.
+ 
+ ## Modules Overview <!-- {docsify-ignore} -->
+ 
++- **[terraform-aws-tf-state](./tf-state/index.md)**  
++  Description: Terraform configuration script to set up S3 bucket and DynamoDB table to manage terraform state.  
++  Link to source code: [GitHub](https://github.com/MikalaiYatsyna/terraform-aws-tf-state)
+ 
+ - **[terraform-aws-ecr](./ecr/index.md)**   
+-  Description: Terraform configuration script to set up an Elastic Container Registry (ECR) on AWS.  
++  Description: Terraform configuration script to set up Elastic Container Registry (ECR) on AWS.  
+   Link to source code: [GitHub](https://github.com/MikalaiYatsyna/terraform-aws-ecr)
+ 
+-- **[terraform-aws-eks](./ecr/index.md)**   
+-  Description:   Terraform configuration script to set up an Elastic Kubernetes Service Cluster (EKS) on AWS.   
++- **[terraform-aws-route53](./route53/index.md)**   
++  Description: Terraform configuration script to set up Public Route 53 zone for specified domain.  
++  Link to source code: [GitHub](https://github.com/MikalaiYatsyna/terraform-aws-route53)
++
++- **[terraform-cloudflare-dns-records](./cloudflare/index.md)**   
++  Description: Terraform configuration script to set up Cloudflare DNS delegation.  
++  Link to source code: [GitHub](https://github.com/MikalaiYatsyna/terraform-cloudflare-dns-records)
++
++- **[terraform-aws-eks](./eks/index.md)**   
++  Description: Terraform configuration script to set up Elastic Kubernetes Service Cluster (EKS) on AWS.   
+   Link to source code: [GitHub](https://github.com/MikalaiYatsyna/terraform-aws-eks)
+ 
++- **[terraform-aws-eks-ingress](./ingress/index.md)**   
++  Description: Terraform configuration script to set up Nginx ingress for EKS cluster.   
++  Link to source code: [GitHub](https://github.com/MikalaiYatsyna/terraform-aws-eks-ingress)
++
++- **[terraform-aws-eks-autoscaler](./autoscaler/index.md)**   
++  Description: Terraform configuration script to set up Cluster Autoscaler for AWS EKS.  
++  Link to source code: [GitHub](https://github.com/MikalaiYatsyna/terraform-aws-eks-autoscaler)
++
++- **[terraform-aws-eks-cert-manager](./cert-manager/index.md)**   
++  Description: Terraform configuration script to set up Certificate Manager for EKS cluster.   
++  Link to source code: [GitHub](https://github.com/MikalaiYatsyna/terraform-aws-eks-cert-manager)
++
++- **[terraform-aws-eks-cert-manager-issuer](./cert-issuer/index.md)**   
++  Description: Terraform configuration script to set up Let's Encrypt cert manager issuer.
++  Link to source code: [GitHub](https://github.com/MikalaiYatsyna/terraform-aws-cert-manager-issuer)
++
++- **[terraform-aws-external-dns](./external-dns/index.md)**   
++ Description: Terraform configuration script to set up External DSN for EKS cluster.
++ Link to source code: [GitHub](https://github.com/MikalaiYatsyna/terraform-aws-external-dns)
++
++- **[terraform-aws-consul](./consul/index.md)**   
++ Description: Terraform configuration script to deploy Hashicorp Consul to EKS cluster.
++ Link to source code: [GitHub](https://github.com/MikalaiYatsyna/terraform-aws-consul)
++
++- **[terraform-aws-vault](./vault/index.md)**   
++ Description: Terraform configuration script to deploy Hashicorp Vault to EKS cluster.  
++ Link to source code: [GitHub](https://github.com/MikalaiYatsyna/terraform-aws-vault)
++
++
++- **[terraform-vault-k8s-auth](./vault-k8s/index.md)**   
++ Description: Terraform configuration script to configure Kubernetes Authentication for Hashicorp Vault.  
++ Link to source code: [GitHub](https://github.com/MikalaiYatsyna/terraform-vault-k8s-auth)
++
++- **[terraform-vault-secret-backends](./vault-backends/index.md)**   
++ Description: Terraform configuration script to enable Secret Backends in Hashicorp Vault.  
++ Link to source code: [GitHub](https://github.com/MikalaiYatsyna/terraform-vault-secret-backends)
++
++  
++- **[terraform-argo-cd](./argo-cd/index.md)**   
++ Description: Terraform configuration script to deploy Argo CD to EKS cluster.  
++ Link to source code: [GitHub](https://github.com/MikalaiYatsyna/terraform-aws-argo-cd)
++
++
+ ## Interaction Overview <!-- {docsify-ignore} -->
+ 
+ To maintain the DRYness of the Terraform configuration, interactions between modules are abstracted using Terragrunt.
+ More details about Terragrunt stacks approach can be found [here.](../terragrunt/index.md)
+-
+-## Next Steps <!-- {docsify-ignore} -->
+-
+-Refer stakeholders to the detailed documentation for each module to understand specific configurations, usage, and best practices. Encourage feedback and collaboration to continuously improve and evolve infrastructure architecture.
+Index: docs/infrastructure/terraform/tf-state/index.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docs/infrastructure/terraform/tf-state/index.md b/docs/infrastructure/terraform/tf-state/index.md
+new file mode 100644
+--- /dev/null	(date 1710073997579)
++++ b/docs/infrastructure/terraform/tf-state/index.md	(date 1710073997579)
+@@ -0,0 +1,1 @@
++[docs](http://raw.githubusercontent.com/MikalaiYatsyna/terraform-aws-tf-state/master/README.md ':include')
+\ No newline at end of file
+Index: docs/infrastructure/terraform/_sidebar.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>- [Home](/)\n- [Infrastructure Overview](../index.md)\n- [Terraform modules](index.md)\n- [AWS ECR](ecr/index.md)\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docs/infrastructure/terraform/_sidebar.md b/docs/infrastructure/terraform/_sidebar.md
+--- a/docs/infrastructure/terraform/_sidebar.md	(revision 19b38543cd601e60b1f51b657f1283693adf38f0)
++++ b/docs/infrastructure/terraform/_sidebar.md	(date 1710075850359)
+@@ -1,4 +1,18 @@
+ - [Home](/)
+ - [Infrastructure Overview](../index.md)
+ - [Terraform modules](index.md)
+-- [AWS ECR](ecr/index.md)
++- [Terraform state](../tf-state/index.md)
++- [AWS ECR](./ecr/index.md)
++- [AWS Route 53](./route53/index.md)
++- [CloudFlare DNS](./cloudflare/index.md)
++- [AWS EKS](./eks/index.md)
++- [AWS EKS Nginx Ingress](./ingress/index.md)
++- [AWS EKS Autoscaler](./autoscaler/index.md)
++- [AWS EKS Cert Manager](./cert-manager/index.md)
++- [AWS EKS Cert Manager Issuer](./cert-issuer/index.md)
++- [AWS EKS External DNS](./external-dns/index.md)
++- [Hashicorp Consul](./consul/index.md)
++- [Hashicorp Vault](./vault/index.md)
++- [Hashicorp Vault Kubernetes Auth](./vault-k8s/index.md)
++- [Hashicorp Vault Secret Backends](./vault-backends/index.md)
++- [Argo CD](./argo-cd/index.md)
+Index: docs/infrastructure/terraform/tf-state/_sidebar.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docs/infrastructure/terraform/tf-state/_sidebar.md b/docs/infrastructure/terraform/tf-state/_sidebar.md
+new file mode 100644
+--- /dev/null	(date 1710074673730)
++++ b/docs/infrastructure/terraform/tf-state/_sidebar.md	(date 1710074673730)
+@@ -0,0 +1,18 @@
++- [Home](/)
++- [Infrastructure Overview](../../index.md) 
++- [Terraform modules](../index.md)
++- [Terraform state](./index.md)
++- [AWS ECR](../ecr/index.md)
++- [AWS Route 53](../route53/index.md)
++- [CloudFlare DNS](../cloudflare/index.md)
++- [AWS EKS](../eks/index.md)
++- [AWS EKS Nginx Ingress](../ingress/index.md)
++- [AWS EKS Autoscaler](../autoscaler/index.md)
++- [AWS EKS Cert Manager](../cert-manager/index.md)
++- [AWS EKS Cert Manager Issuer](../cert-issuer/index.md)
++- [AWS EKS External DNS](../external-dns/index.md)
++- [Hashicorp Consul](../consul/index.md)
++- [Hashicorp Vault](../vault/index.md)
++- [Hashicorp Vault Kubernetes Auth](../vault-k8s/index.md)
++- [Hashicorp Vault Secret Backends](../vault-backends/index.md)
++- [Argo CD](../argo-cd/index.md)
+Index: docs/infrastructure/terraform/autoscaler/_sidebar.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docs/infrastructure/terraform/autoscaler/_sidebar.md b/docs/infrastructure/terraform/autoscaler/_sidebar.md
+new file mode 100644
+--- /dev/null	(date 1710074787735)
++++ b/docs/infrastructure/terraform/autoscaler/_sidebar.md	(date 1710074787735)
+@@ -0,0 +1,18 @@
++- [Home](/)
++- [Infrastructure Overview](../../index.md) 
++- [Terraform modules](../index.md)
++- [Terraform state](../tf-state/index.md)
++- [AWS ECR](../ecr/index.md)
++- [AWS Route 53](../route53/index.md)
++- [CloudFlare DNS](../cloudflare/index.md)
++- [AWS EKS](../eks/index.md)
++- [AWS EKS Nginx Ingress](../ingress/index.md)
++- [AWS EKS Autoscaler](./index.md)
++- [AWS EKS Cert Manager](../cert-manager/index.md)
++- [AWS EKS Cert Manager Issuer](../cert-issuer/index.md)
++- [AWS EKS External DNS](../external-dns/index.md)
++- [Hashicorp Consul](../consul/index.md)
++- [Hashicorp Vault](../vault/index.md)
++- [Hashicorp Vault Kubernetes Auth](../vault-k8s/index.md)
++- [Hashicorp Vault Secret Backends](../vault-backends/index.md)
++- [Argo CD](../argo-cd/index.md)
+Index: docs/infrastructure/terragrunt/core/index.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>[platform-core](https://raw.githubusercontent.com/MikalaiYatsyna/terragrunt-infra-core/master/README.md ':include')
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docs/infrastructure/terragrunt/core/index.md b/docs/infrastructure/terragrunt/core/index.md
+--- a/docs/infrastructure/terragrunt/core/index.md	(revision 19b38543cd601e60b1f51b657f1283693adf38f0)
++++ b/docs/infrastructure/terragrunt/core/index.md	(date 1710075850361)
+@@ -1,1 +1,11 @@
+-[platform-core](https://raw.githubusercontent.com/MikalaiYatsyna/terragrunt-infra-core/master/README.md ':include')
+\ No newline at end of file
++## Core Components
++These are essential components forming the foundation of the infrastructure:
++- AWS EKS Kubernetes cluster
++- ArgoCD for GitOps workflows
++- HashiCorp Consul for configuration management
++- HashiCorp Vault for secrets management
++
++
++[platform-core](https://raw.githubusercontent.com/MikalaiYatsyna/terragrunt-infra-core/master/README.md ':include')
++
++
+Index: docs/infrastructure/terraform/cert-manager/index.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docs/infrastructure/terraform/cert-manager/index.md b/docs/infrastructure/terraform/cert-manager/index.md
+new file mode 100644
+--- /dev/null	(date 1710075172825)
++++ b/docs/infrastructure/terraform/cert-manager/index.md	(date 1710075172825)
+@@ -0,0 +1,1 @@
++[docs](http://raw.githubusercontent.com/MikalaiYatsyna/terraform-aws-eks-cert-manager/master/README.md ':include')
+\ No newline at end of file
+Index: docs/infrastructure/terragrunt/app-stack/index.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>[application-stack](https://raw.githubusercontent.com/MikalaiYatsyna/terragrunt-stack/master/README.md ':include')
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docs/infrastructure/terragrunt/app-stack/index.md b/docs/infrastructure/terragrunt/app-stack/index.md
+--- a/docs/infrastructure/terragrunt/app-stack/index.md	(revision 19b38543cd601e60b1f51b657f1283693adf38f0)
++++ b/docs/infrastructure/terragrunt/app-stack/index.md	(date 1710065330700)
+@@ -1,1 +1,7 @@
++
++## Stack Components
++These components are dedicated to application deployments:
++- AWS EKS Kubernetes cluster
++
++
+ [application-stack](https://raw.githubusercontent.com/MikalaiYatsyna/terragrunt-stack/master/README.md ':include')
+\ No newline at end of file
+Index: docs/infrastructure/terraform/cert-manager/_sidebar.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docs/infrastructure/terraform/cert-manager/_sidebar.md b/docs/infrastructure/terraform/cert-manager/_sidebar.md
+new file mode 100644
+--- /dev/null	(date 1710075218808)
++++ b/docs/infrastructure/terraform/cert-manager/_sidebar.md	(date 1710075218808)
+@@ -0,0 +1,18 @@
++- [Home](/)
++- [Infrastructure Overview](../../index.md) 
++- [Terraform modules](../index.md)
++- [Terraform state](../tf-state/index.md)
++- [AWS ECR](../ecr/index.md)
++- [AWS Route 53](../route53/index.md)
++- [CloudFlare DNS](../cloudflare/index.md)
++- [AWS EKS](../eks/index.md)
++- [AWS EKS Nginx Ingress](../ingress/index.md)
++- [AWS EKS Autoscaler](../autoscaler/index.md)
++- [AWS EKS Cert Manager](./index.md)
++- [AWS EKS Cert Manager Issuer](../cert-issuer/index.md)
++- [AWS EKS External DNS](../external-dns/index.md)
++- [Hashicorp Consul](../consul/index.md)
++- [Hashicorp Vault](../vault/index.md)
++- [Hashicorp Vault Kubernetes Auth](../vault-k8s/index.md)
++- [Hashicorp Vault Secret Backends](../vault-backends/index.md)
++- [Argo CD](../argo-cd/index.md)
+Index: docs/infrastructure/terraform/ingress/index.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docs/infrastructure/terraform/ingress/index.md b/docs/infrastructure/terraform/ingress/index.md
+new file mode 100644
+--- /dev/null	(date 1710075131009)
++++ b/docs/infrastructure/terraform/ingress/index.md	(date 1710075131009)
+@@ -0,0 +1,1 @@
++[docs](http://raw.githubusercontent.com/MikalaiYatsyna/terraform-aws-eks-ingress/master/README.md ':include')
+\ No newline at end of file
+Index: docs/infrastructure/terraform/ingress/_sidebar.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docs/infrastructure/terraform/ingress/_sidebar.md b/docs/infrastructure/terraform/ingress/_sidebar.md
+new file mode 100644
+--- /dev/null	(date 1710075155336)
++++ b/docs/infrastructure/terraform/ingress/_sidebar.md	(date 1710075155336)
+@@ -0,0 +1,18 @@
++- [Home](/)
++- [Infrastructure Overview](../../index.md) 
++- [Terraform modules](../index.md)
++- [Terraform state](../tf-state/index.md)
++- [AWS ECR](../ecr/index.md)
++- [AWS Route 53](../route53/index.md)
++- [CloudFlare DNS](../cloudflare/index.md)
++- [AWS EKS](../eks/index.md)
++- [AWS EKS Nginx Ingress](./index.md)
++- [AWS EKS Autoscaler](../autoscaler/index.md)
++- [AWS EKS Cert Manager](../cert-manager/index.md)
++- [AWS EKS Cert Manager Issuer](../cert-issuer/index.md)
++- [AWS EKS External DNS](../external-dns/index.md)
++- [Hashicorp Consul](../consul/index.md)
++- [Hashicorp Vault](../vault/index.md)
++- [Hashicorp Vault Kubernetes Auth](../vault-k8s/index.md)
++- [Hashicorp Vault Secret Backends](../vault-backends/index.md)
++- [Argo CD](../argo-cd/index.md)
+Index: docs/infrastructure/terraform/ecr/_sidebar.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>- [Home](/)\n- [Infrastructure Overview](../../index.md) \n- [Terraform modules](../index.md)\n- [AWS ECR](./index.md)
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docs/infrastructure/terraform/ecr/_sidebar.md b/docs/infrastructure/terraform/ecr/_sidebar.md
+--- a/docs/infrastructure/terraform/ecr/_sidebar.md	(revision 19b38543cd601e60b1f51b657f1283693adf38f0)
++++ b/docs/infrastructure/terraform/ecr/_sidebar.md	(date 1710075610084)
+@@ -1,4 +1,18 @@
+ - [Home](/)
+ - [Infrastructure Overview](../../index.md) 
+ - [Terraform modules](../index.md)
+-- [AWS ECR](./index.md)
+\ No newline at end of file
++- [Terraform state](../tf-state/index.md)
++- [AWS ECR](./index.md)
++- [AWS Route 53](../route53/index.md)
++- [CloudFlare DNS](../cloudflare/index.md)
++- [AWS EKS](../eks/index.md)
++- [AWS EKS Nginx Ingress](../ingress/index.md)
++- [AWS EKS Autoscaler](../autoscaler/index.md)
++- [AWS EKS Cert Manager](../cert-manager/index.md)
++- [AWS EKS Cert Manager Issuer](../cert-issuer/index.md)
++- [AWS EKS External DNS](../external-dns/index.md)
++- [Hashicorp Consul](../consul/index.md)
++- [Hashicorp Vault](../vault/index.md)
++- [Hashicorp Vault Kubernetes Auth](../vault-k8s/index.md)
++- [Hashicorp Vault Secret Backends](../vault-backends/index.md)
++- [Argo CD](../argo-cd/index.md)
+Index: docs/infrastructure/terraform/kubernetes/index.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docs/infrastructure/terraform/kubernetes/index.md b/docs/infrastructure/terraform/eks/index.md
+rename from docs/infrastructure/terraform/kubernetes/index.md
+rename to docs/infrastructure/terraform/eks/index.md
+--- a/docs/infrastructure/terraform/kubernetes/index.md	(revision 19b38543cd601e60b1f51b657f1283693adf38f0)
++++ b/docs/infrastructure/terraform/eks/index.md	(date 1710075273055)
+@@ -1,3 +1,1 @@
+-# K8S modules Modules
+-
+ [docs](http://raw.githubusercontent.com/MikalaiYatsyna/terraform-aws-eks/master/README.md ':include')
+\ No newline at end of file
+Index: docs/infrastructure/terraform/autoscaler/index.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docs/infrastructure/terraform/autoscaler/index.md b/docs/infrastructure/terraform/autoscaler/index.md
+new file mode 100644
+--- /dev/null	(date 1710075097078)
++++ b/docs/infrastructure/terraform/autoscaler/index.md	(date 1710075097078)
+@@ -0,0 +1,1 @@
++[docs](http://raw.githubusercontent.com/MikalaiYatsyna/terraform-aws-eks-autoscaler/master/README.md ':include')
+\ No newline at end of file
+Index: docs/infrastructure/terraform/eks/_sidebar.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docs/infrastructure/terraform/eks/_sidebar.md b/docs/infrastructure/terraform/eks/_sidebar.md
+new file mode 100644
+--- /dev/null	(date 1710075850357)
++++ b/docs/infrastructure/terraform/eks/_sidebar.md	(date 1710075850357)
+@@ -0,0 +1,18 @@
++- [Home](/)
++- [Infrastructure Overview](../../index.md)
++- [Terraform modules](../index.md)
++- [Terraform state](../tf-state/index.md)
++- [AWS ECR](../ecr/index.md)
++- [AWS Route 53](../route53/index.md)
++- [CloudFlare DNS](../cloudflare/index.md)
++- [AWS EKS](./index.md)
++- [AWS EKS Nginx Ingress](../ingress/index.md)
++- [AWS EKS Autoscaler](../autoscaler/index.md)
++- [AWS EKS Cert Manager](../cert-manager/index.md)
++- [AWS EKS Cert Manager Issuer](../cert-issuer/index.md)
++- [AWS EKS External DNS](../external-dns/index.md)
++- [Hashicorp Consul](../consul/index.md)
++- [Hashicorp Vault](../vault/index.md)
++- [Hashicorp Vault Kubernetes Auth](../vault-k8s/index.md)
++- [Hashicorp Vault Secret Backends](../vault-backends/index.md)
++- [Argo CD](../argo-cd/index.md)
+Index: docs/infrastructure/terraform/external-dns/index.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docs/infrastructure/terraform/external-dns/index.md b/docs/infrastructure/terraform/external-dns/index.md
+new file mode 100644
+--- /dev/null	(date 1710075273059)
++++ b/docs/infrastructure/terraform/external-dns/index.md	(date 1710075273059)
+@@ -0,0 +1,1 @@
++[docs](http://raw.githubusercontent.com/MikalaiYatsyna/terraform-aws-external-dns/master/README.md ':include')
+\ No newline at end of file
+Index: docs/infrastructure/terraform/external-dns/_sidebar.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docs/infrastructure/terraform/external-dns/_sidebar.md b/docs/infrastructure/terraform/external-dns/_sidebar.md
+new file mode 100644
+--- /dev/null	(date 1710074941247)
++++ b/docs/infrastructure/terraform/external-dns/_sidebar.md	(date 1710074941247)
+@@ -0,0 +1,18 @@
++- [Home](/)
++- [Infrastructure Overview](../../index.md) 
++- [Terraform modules](../index.md)
++- [Terraform state](../tf-state/index.md)
++- [AWS ECR](../ecr/index.md)
++- [AWS Route 53](../route53/index.md)
++- [CloudFlare DNS](../cloudflare/index.md)
++- [AWS EKS](../eks/index.md)
++- [AWS EKS Nginx Ingress](../ingress/index.md)
++- [AWS EKS Autoscaler](../autoscaler/index.md)
++- [AWS EKS Cert Manager](../cert-manager/index.md)
++- [AWS EKS Cert Manager Issuer](../cert-manager/index.md)
++- [AWS EKS External DNS](./index.md)
++- [Hashicorp Consul](../consul/index.md)
++- [Hashicorp Vault](../vault/index.md)
++- [Hashicorp Vault Kubernetes Auth](../vault-k8s/index.md)
++- [Hashicorp Vault Secret Backends](../vault-backends/index.md)
++- [Argo CD](../argo-cd/index.md)
+Index: docs/infrastructure/terraform/consul/index.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docs/infrastructure/terraform/consul/index.md b/docs/infrastructure/terraform/consul/index.md
+new file mode 100644
+--- /dev/null	(date 1710075285735)
++++ b/docs/infrastructure/terraform/consul/index.md	(date 1710075285735)
+@@ -0,0 +1,1 @@
++[docs](http://raw.githubusercontent.com/MikalaiYatsyna/terraform-aws-consul/master/README.md ':include')
+\ No newline at end of file
+Index: docs/infrastructure/terraform/cert-issuer/index.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docs/infrastructure/terraform/cert-issuer/index.md b/docs/infrastructure/terraform/cert-issuer/index.md
+new file mode 100644
+--- /dev/null	(date 1710075200822)
++++ b/docs/infrastructure/terraform/cert-issuer/index.md	(date 1710075200822)
+@@ -0,0 +1,1 @@
++[docs](http://raw.githubusercontent.com/MikalaiYatsyna/terraform-aws-cert-manager-issuer/master/README.md ':include')
+\ No newline at end of file
+Index: docs/infrastructure/terraform/cert-issuer/_sidebar.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docs/infrastructure/terraform/cert-issuer/_sidebar.md b/docs/infrastructure/terraform/cert-issuer/_sidebar.md
+new file mode 100644
+--- /dev/null	(date 1710075209775)
++++ b/docs/infrastructure/terraform/cert-issuer/_sidebar.md	(date 1710075209775)
+@@ -0,0 +1,18 @@
++- [Home](/)
++- [Infrastructure Overview](../../index.md) 
++- [Terraform modules](../index.md)
++- [Terraform state](../tf-state/index.md)
++- [AWS ECR](../ecr/index.md)
++- [AWS Route 53](../route53/index.md)
++- [CloudFlare DNS](../cloudflare/index.md)
++- [AWS EKS](../eks/index.md)
++- [AWS EKS Nginx Ingress](../ingress/index.md)
++- [AWS EKS Autoscaler](../autoscaler/index.md)
++- [AWS EKS Cert Manager](../cert-manager/index.md)
++- [AWS EKS Cert Manager Issuer](./index.md)
++- [AWS EKS External DNS](../external-dns/index.md)
++- [Hashicorp Consul](../consul/index.md)
++- [Hashicorp Vault](../vault/index.md)
++- [Hashicorp Vault Kubernetes Auth](../vault-k8s/index.md)
++- [Hashicorp Vault Secret Backends](../vault-backends/index.md)
++- [Argo CD](../argo-cd/index.md)
+Index: docs/infrastructure/terraform/vault-k8s/index.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docs/infrastructure/terraform/vault-k8s/index.md b/docs/infrastructure/terraform/vault-k8s/index.md
+new file mode 100644
+--- /dev/null	(date 1710075350049)
++++ b/docs/infrastructure/terraform/vault-k8s/index.md	(date 1710075350049)
+@@ -0,0 +1,1 @@
++[docs](http://raw.githubusercontent.com/MikalaiYatsyna/terraform-vault-k8s-auth/master/README.md ':include')
+\ No newline at end of file
+Index: docs/infrastructure/terraform/vault-k8s/_sidebar.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docs/infrastructure/terraform/vault-k8s/_sidebar.md b/docs/infrastructure/terraform/vault-k8s/_sidebar.md
+new file mode 100644
+--- /dev/null	(date 1710075362438)
++++ b/docs/infrastructure/terraform/vault-k8s/_sidebar.md	(date 1710075362438)
+@@ -0,0 +1,18 @@
++- [Home](/)
++- [Infrastructure Overview](../../index.md) 
++- [Terraform modules](../index.md)
++- [Terraform state](../tf-state/index.md)
++- [AWS ECR](../ecr/index.md)
++- [AWS Route 53](../route53/index.md)
++- [CloudFlare DNS](../cloudflare/index.md)
++- [AWS EKS](../eks/index.md)
++- [AWS EKS Nginx Ingress](../ingress/index.md)
++- [AWS EKS Autoscaler](../autoscaler/index.md)
++- [AWS EKS Cert Manager](../cert-manager/index.md)
++- [AWS EKS Cert Manager Issuer](../cert-manager/index.md)
++- [AWS EKS External DNS](../external-dns/index.md)
++- [Hashicorp Consul](../consul/index.md)
++- [Hashicorp Vault](../vault/index.md)
++- [Hashicorp Vault Kubernetes Auth](./index.md)
++- [Hashicorp Vault Secret Backends](../vault-backends/index.md)
++- [Argo CD](../argo-cd/index.md)
+Index: docs/infrastructure/terraform/consul/_sidebar.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docs/infrastructure/terraform/consul/_sidebar.md b/docs/infrastructure/terraform/consul/_sidebar.md
+new file mode 100644
+--- /dev/null	(date 1710074950654)
++++ b/docs/infrastructure/terraform/consul/_sidebar.md	(date 1710074950654)
+@@ -0,0 +1,18 @@
++- [Home](/)
++- [Infrastructure Overview](../../index.md) 
++- [Terraform modules](../index.md)
++- [Terraform state](../tf-state/index.md)
++- [AWS ECR](../ecr/index.md)
++- [AWS Route 53](../route53/index.md)
++- [CloudFlare DNS](../cloudflare/index.md)
++- [AWS EKS](../eks/index.md)
++- [AWS EKS Nginx Ingress](../ingress/index.md)
++- [AWS EKS Autoscaler](../autoscaler/index.md)
++- [AWS EKS Cert Manager](../cert-manager/index.md)
++- [AWS EKS Cert Manager Issuer](../cert-manager/index.md)
++- [AWS EKS External DNS](../external-dns/index.md)
++- [Hashicorp Consul](./index.md)
++- [Hashicorp Vault](../vault/index.md)
++- [Hashicorp Vault Kubernetes Auth](../vault-k8s/index.md)
++- [Hashicorp Vault Secret Backends](../vault-backends/index.md)
++- [Argo CD](../argo-cd/index.md)
+Index: docs/infrastructure/terraform/vault/index.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docs/infrastructure/terraform/vault/index.md b/docs/infrastructure/terraform/vault/index.md
+new file mode 100644
+--- /dev/null	(date 1710075299304)
++++ b/docs/infrastructure/terraform/vault/index.md	(date 1710075299304)
+@@ -0,0 +1,1 @@
++[docs](http://raw.githubusercontent.com/MikalaiYatsyna/terraform-aws-vault/master/README.md ':include')
+\ No newline at end of file
+Index: docs/infrastructure/terraform/vault/_sidebar.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docs/infrastructure/terraform/vault/_sidebar.md b/docs/infrastructure/terraform/vault/_sidebar.md
+new file mode 100644
+--- /dev/null	(date 1710075334069)
++++ b/docs/infrastructure/terraform/vault/_sidebar.md	(date 1710075334069)
+@@ -0,0 +1,18 @@
++- [Home](/)
++- [Infrastructure Overview](../../index.md) 
++- [Terraform modules](../index.md)
++- [Terraform state](../tf-state/index.md)
++- [AWS ECR](../ecr/index.md)
++- [AWS Route 53](../route53/index.md)
++- [CloudFlare DNS](../cloudflare/index.md)
++- [AWS EKS](../eks/index.md)
++- [AWS EKS Nginx Ingress](../ingress/index.md)
++- [AWS EKS Autoscaler](../autoscaler/index.md)
++- [AWS EKS Cert Manager](../cert-manager/index.md)
++- [AWS EKS Cert Manager Issuer](../cert-manager/index.md)
++- [AWS EKS External DNS](../external-dns/index.md)
++- [Hashicorp Consul](../consul/index.md)
++- [Hashicorp Vault](./index.md)
++- [Hashicorp Vault Kubernetes Auth](../vault-k8s/index.md)
++- [Hashicorp Vault Secret Backends](../vault-backends/index.md)
++- [Argo CD](../argo-cd/index.md)
+Index: docs/infrastructure/terraform/argo-cd/_sidebar.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docs/infrastructure/terraform/argo-cd/_sidebar.md b/docs/infrastructure/terraform/argo-cd/_sidebar.md
+new file mode 100644
+--- /dev/null	(date 1710075038280)
++++ b/docs/infrastructure/terraform/argo-cd/_sidebar.md	(date 1710075038280)
+@@ -0,0 +1,18 @@
++- [Home](/)
++- [Infrastructure Overview](../../index.md) 
++- [Terraform modules](../index.md)
++- [Terraform state](../tf-state/index.md)
++- [AWS ECR](../ecr/index.md)
++- [AWS Route 53](../route53/index.md)
++- [CloudFlare DNS](../cloudflare/index.md)
++- [AWS EKS](../eks/index.md)
++- [AWS EKS Nginx Ingress](../ingress/index.md)
++- [AWS EKS Autoscaler](../autoscaler/index.md)
++- [AWS EKS Cert Manager](../cert-manager/index.md)
++- [AWS EKS Cert Manager Issuer](../cert-manager/index.md)
++- [AWS EKS External DNS](../external-dns/index.md)
++- [Hashicorp Consul](../consul/index.md)
++- [Hashicorp Vault](../vault/index.md)
++- [Hashicorp Vault Kubernetes Auth](../vault-k8s/index.md)
++- [Hashicorp Vault Secret Backends](../vault-backends/index.md)
++- [Argo CD](./index.md)
+Index: docs/infrastructure/terraform/vault-backends/index.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docs/infrastructure/terraform/vault-backends/index.md b/docs/infrastructure/terraform/vault-backends/index.md
+new file mode 100644
+--- /dev/null	(date 1710075407097)
++++ b/docs/infrastructure/terraform/vault-backends/index.md	(date 1710075407097)
+@@ -0,0 +1,1 @@
++[docs](http://raw.githubusercontent.com/MikalaiYatsyna/terraform-vault-secret-backends/master/README.md ':include')
+\ No newline at end of file
+Index: docs/infrastructure/terraform/vault-backends/_sidebar.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docs/infrastructure/terraform/vault-backends/_sidebar.md b/docs/infrastructure/terraform/vault-backends/_sidebar.md
+new file mode 100644
+--- /dev/null	(date 1710075012743)
++++ b/docs/infrastructure/terraform/vault-backends/_sidebar.md	(date 1710075012743)
+@@ -0,0 +1,18 @@
++- [Home](/)
++- [Infrastructure Overview](../../index.md) 
++- [Terraform modules](../index.md)
++- [Terraform state](../tf-state/index.md)
++- [AWS ECR](../ecr/index.md)
++- [AWS Route 53](../route53/index.md)
++- [CloudFlare DNS](../cloudflare/index.md)
++- [AWS EKS](../eks/index.md)
++- [AWS EKS Nginx Ingress](../ingress/index.md)
++- [AWS EKS Autoscaler](../autoscaler/index.md)
++- [AWS EKS Cert Manager](../cert-manager/index.md)
++- [AWS EKS Cert Manager Issuer](../cert-manager/index.md)
++- [AWS EKS External DNS](../external-dns/index.md)
++- [Hashicorp Consul](../consul/index.md)
++- [Hashicorp Vault](../vault/index.md)
++- [Hashicorp Vault Kubernetes Auth](../vault-k8s/index.md)
++- [Hashicorp Vault Secret Backends](./index.md)
++- [Argo CD](../argo-cd/index.md)
+Index: docs/infrastructure/terraform/argo-cd/index.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docs/infrastructure/terraform/argo-cd/index.md b/docs/infrastructure/terraform/argo-cd/index.md
+new file mode 100644
+--- /dev/null	(date 1710075077556)
++++ b/docs/infrastructure/terraform/argo-cd/index.md	(date 1710075077556)
+@@ -0,0 +1,1 @@
++[docs](http://raw.githubusercontent.com/MikalaiYatsyna/terraform-aws-argo-cd/master/README.md ':include')
+\ No newline at end of file

@@ -1,0 +1,33 @@
+Index: .idea/jsLibraryMappings.xml
+===================================================================
+diff --git a/.idea/jsLibraryMappings.xml b/.idea/jsLibraryMappings.xml
+deleted file mode 100644
+--- a/.idea/jsLibraryMappings.xml	(revision bcfdd35ea764f89da18f956a2a94d79feefdd94a)
++++ /dev/null	(revision bcfdd35ea764f89da18f956a2a94d79feefdd94a)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="JavaScriptLibraryMappings">
+-    <file url="file://$PROJECT_DIR$" libraries="{docsify, docsify-copy-code, docsify-drawio}" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_21\" default=\"true\" project-jdk-name=\"21\" project-jdk-type=\"JavaSDK\">\n    <output url=\"file://$PROJECT_DIR$/out\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision bcfdd35ea764f89da18f956a2a94d79feefdd94a)
++++ b/.idea/misc.xml	(date 1709845417112)
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true">
+     <output url="file://$PROJECT_DIR$/out" />
+   </component>
+ </project>
+\ No newline at end of file
