@@ -1,0 +1,1 @@
+[docs](http://raw.githubusercontent.com/MikalaiYatsyna/terraform-aws-argo-cd/master/README.md ':include')

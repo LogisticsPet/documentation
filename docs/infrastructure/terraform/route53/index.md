@@ -1,0 +1,1 @@
+[docs](http://raw.githubusercontent.com/MikalaiYatsyna/terraform-aws-route53/master/README.md ':include')
