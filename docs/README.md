@@ -46,3 +46,12 @@ This section provides insights into the architecture of our application, includi
 - **Integration**: Overview of integrations with other systems or services.
 
 [Click here for detailed documentation on Application Architecture](./application-architecture/index.md)
+
+### CI/CD Setup<!-- {docsify-ignore} -->
+
+This section provides insights into the configuration and maintenance of CI/CD pipelines.
+
+- **Overview**: Brief description of the strategy for building pipelines.
+- **Setup**: Exact steps to required to configure pipelines.
+- **Tooling**: List of tools used in pipelines.
+  [Click here for detailed documentation on CI/CD](./ci-cd/index.md)
