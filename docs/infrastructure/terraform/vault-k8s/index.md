@@ -1,1 +1,1 @@
-[docs](http://raw.githubusercontent.com/MikalaiYatsyna/terraform-vault-k8s-auth/master/README.md ':include')
+[docs](https://raw.githubusercontent.com/MikalaiYatsyna/terraform-vault-k8s-auth/master/README.md ':include')
