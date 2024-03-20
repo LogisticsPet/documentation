@@ -9,9 +9,9 @@ The purpose of this document is to provide stakeholders with a broad understandi
 ## Stacks Overview <!-- {docsify-ignore} -->
 
 - **Stack 1: Platform Core**  
-  Description: Brief description of the stack's purpose and functionality.  
-  Link to detailed documentation: [Platform Core Documentation](./core/index.md)  
-  Link to source code: [GitHub](https://github.com/MikalaiYatsyna/terragrunt-infra-core)
+  Description: Includes core components required for applicaion.  
+  Link to detailed documentation: [Platform Core Documentation](./platform/index.md)  
+  Link to source code: [GitHub](https://github.com/MikalaiYatsyna/terragrunt-infra-platform)
 
 - **Stack 2: Application Stack**  
   Description: Brief description of the stack's purpose and functionality.  
