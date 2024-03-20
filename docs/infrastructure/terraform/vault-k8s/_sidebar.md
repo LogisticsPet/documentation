@@ -16,3 +16,4 @@
 - [Hashicorp Vault Kubernetes Auth](./index.md)
 - [Hashicorp Vault Secret Backends](../vault-backends/index.md)
 - [Argo CD](../argo-cd/index.md)
+- [VPC](../vpc/index.md)

@@ -1,7 +1,7 @@
 - [Home](/)
 - [Infrastructure Overview](../index.md)
 - [Terraform modules](index.md)
-- [Terraform state](../tf-state/index.md)
+- [Terraform state](./tf-state/index.md)
 - [AWS ECR](./ecr/index.md)
 - [AWS Route 53](./route53/index.md)
 - [CloudFlare DNS](./cloudflare/index.md)
@@ -16,3 +16,4 @@
 - [Hashicorp Vault Kubernetes Auth](./vault-k8s/index.md)
 - [Hashicorp Vault Secret Backends](./vault-backends/index.md)
 - [Argo CD](./argo-cd/index.md)
+- [VPC](./vpc/index.md)

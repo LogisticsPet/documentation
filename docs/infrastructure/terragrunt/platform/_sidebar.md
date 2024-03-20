@@ -1,4 +1,4 @@
-- [Home](/)
+- [Home](./)
 - [Infrastructure Overview](../../index.md)
 - [Terragrunt stacks](../index.md)
-- [Application stack](index.md)
+- [Platform](index.md)
