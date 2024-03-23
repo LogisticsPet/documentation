@@ -1,1 +1,1 @@
-[docs](https://raw.githubusercontent.com/MikalaiYatsyna/terraform-aws-external-dns/master/README.md ':include')
+[docs](https://raw.githubusercontent.com/MikalaiYatsyna/terraform-kubernetes-external-dns/master/README.md ':include')
