@@ -34,20 +34,20 @@ This document provides an overview of the Terraform modules used to build the in
   Description: Terraform configuration script to set up Cluster Autoscaler for AWS EKS.  
   Link to source code: [GitHub](https://github.com/MikalaiYatsyna/terraform-aws-eks-autoscaler)
 
-- **[terraform-aws-eks-cert-manager](./cert-manager/index.md)**   
+- **[terraform-kubernetes-cert-manager](./cert-manager/index.md)**   
   Description: Terraform configuration script to set up Certificate Manager for EKS cluster.   
-  Link to source code: [GitHub](https://github.com/MikalaiYatsyna/terraform-aws-eks-cert-manager)
+  Link to source code: [GitHub](https://github.com/MikalaiYatsyna/terraform-kubernetes-cert-manager)
 
-- **[terraform-aws-eks-cert-manager-issuer](./cert-issuer/index.md)**   
-  Description: Terraform configuration script to set up Let's Encrypt cert manager issuer.
-  Link to source code: [GitHub](https://github.com/MikalaiYatsyna/terraform-aws-cert-manager-issuer)
+- **[terraform-kubernetes-cert-manager-issuer](./cert-issuer/index.md)**   
+  Description: Terraform configuration script to set up Let's Encrypt cert manager issuer.  
+  Link to source code: [GitHub](https://github.com/MikalaiYatsyna/terraform-kubernetes-cert-manager-issuer)
 
-- **[terraform-aws-external-dns](./external-dns/index.md)**   
- Description: Terraform configuration script to set up External DSN for EKS cluster.
- Link to source code: [GitHub](https://github.com/MikalaiYatsyna/terraform-aws-external-dns)
+- **[terraform-kubernetes-external-dns](./external-dns/index.md)**   
+ Description: Terraform configuration script to set up External DSN for EKS cluster.  
+ Link to source code: [GitHub](https://github.com/MikalaiYatsyna/terraform-kubernetes-external-dns)
 
 - **[terraform-aws-consul](./consul/index.md)**   
- Description: Terraform configuration script to deploy Hashicorp Consul to EKS cluster.
+ Description: Terraform configuration script to deploy Hashicorp Consul to EKS cluster.  
  Link to source code: [GitHub](https://github.com/MikalaiYatsyna/terraform-aws-consul)
 
 - **[terraform-aws-vault](./vault/index.md)**   

@@ -1,1 +1,1 @@
-[docs](https://raw.githubusercontent.com/MikalaiYatsyna/terraform-aws-eks-cert-manager/master/README.md ':include')
+[docs](https://raw.githubusercontent.com/MikalaiYatsyna/terraform-kubernetes-cert-manager/master/README.md ':include')
