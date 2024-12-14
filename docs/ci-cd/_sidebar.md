@@ -1,3 +1,3 @@
 - [Home](/)
 - [CI/CD](./index.md)
-- [Terraform Cloud](./tf-cloud/index.md)
+- [Cloud Formation](./cloud-formation/index.md)

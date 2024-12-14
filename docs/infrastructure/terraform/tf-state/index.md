@@ -1,1 +1,0 @@
-[docs](https://raw.githubusercontent.com/MikalaiYatsyna/terraform-aws-tf-state/master/README.md ':include')

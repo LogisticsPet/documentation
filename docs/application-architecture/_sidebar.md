@@ -1,2 +1,0 @@
-- [Home](/)
-- [Application Architecture](index.md)

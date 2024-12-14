@@ -10,19 +10,12 @@ Terraform modules are reusable, encapsulated components that represent infrastru
 
 For more information, refer to the [Terraform Modules documentation.](terraform/index.md)
 
-## Terragrunt Stacks <!-- {docsify-ignore} -->
+## CDK TF Stacks <!-- {docsify-ignore} -->
 
-Terragrunt stacks represent configurations that orchestrate Terraform modules to provision infrastructure. Stacks provide an abstraction layer for managing complex infrastructure deployments, allowing users to organize and reuse modules efficiently. Terragrunt enhances Terraform workflows by providing additional features such as remote state management, dependency handling, and configuration templating.
+CDK TF stacks represent configurations that orchestrate Terraform modules to provision infrastructure. Stacks provide an abstraction layer for managing complex infrastructure deployments, allowing users to organize and reuse modules efficiently. CDK TF enhances Terraform workflows by providing additional features such as remote state management, dependency handling, and configuration templating.
 
-For more details, consult the [Terragrunt documentation.](terragrunt/index.md)
-
-## Packer templates <!-- {docsify-ignore} -->
-
-Packer templates are HCL files used to define the configuration for building machine images (AMI, VHD, etc.). They enable the automated creation of identical machine images for multiple platforms from a single source configuration. Packer templates specify the builders, provisioners, and post-processors required to create and customize machine images efficiently.
-
-For more information, see the [Packer templates documentation.](packer/index.md)
+For more details, consult the [CDK TF documentation.](cdktf/index.md)
 
 # Tooling used to built infrastructure <!-- {docsify-ignore} -->
-- Terragrunt
 - Terraform
-- Packer
+- CDK TF
