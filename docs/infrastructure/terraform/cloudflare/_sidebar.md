@@ -1,7 +1,6 @@
 - [Home](/)
 - [Infrastructure Overview](../../index.md) 
 - [Terraform modules](../index.md)
-- [Terraform state](../tf-state/index.md)
 - [AWS Route 53](../route53/index.md)
 - [CloudFlare DNS](../cloudflare/index.md)
 - [AWS EKS](../eks/index.md)

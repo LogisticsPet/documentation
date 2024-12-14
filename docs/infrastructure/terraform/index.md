@@ -6,7 +6,7 @@ This document provides an overview of the Terraform modules used to build the in
 
 ## Modules Overview <!-- {docsify-ignore} -->
 
-- **[terraform-aws-tf-state](./vpc/index.md)**  
+- **[terraform-aws-vpc](./vpc/index.md)**  
   Description: Terraform configuration script to set up AWS VPC  
   Link to source code: [GitHub](https://github.com/LogisticsPet/terraform-aws-vpc)
 
