@@ -45,8 +45,6 @@ This section provides insights into the architecture of our application, includi
 - **Resilience**: Explanation of strategies for fault tolerance and disaster recovery.
 - **Integration**: Overview of integrations with other systems or services.
 
-[Click here for detailed documentation on Application Architecture](./application-architecture/index.md)
-
 ### CI/CD Setup<!-- {docsify-ignore} -->
 
 This section provides insights into the configuration and maintenance of CI/CD pipelines.
