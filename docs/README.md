@@ -11,19 +11,28 @@ Supported providers:
 
 ## Main Documentation Modules <!-- {docsify-ignore} -->
 
-### System Architecture <!-- {docsify-ignore} -->
+[//]: # (### System Architecture <!-- {docsify-ignore} -->)
 
-This section provides an overview of the system architecture.
+[//]: # ()
+[//]: # (This section provides an overview of the system architecture.)
 
-- **Overview**: Brief description of the system architecture and key infrastructure components.
-- **AWS Services**: List of AWS services used in our infrastructure.
-- **Networking**: Description of networking configurations, including VPC, subnets, and security groups.
-- **Compute**: Overview of compute resources such as EC2 instances, ECS clusters, or Lambda functions.
-- **Storage**: Description of storage solutions like S3 buckets, EBS volumes, or RDS databases.
-- **Monitoring and Logging**: Explanation of monitoring and logging solutions using CloudWatch, CloudTrail, etc.
-- **Security**: Overview of security measures including IAM policies, encryption, and access controls.
+[//]: # ()
+[//]: # (- **Overview**: Brief description of the system architecture and key infrastructure components.)
 
-[Click here for detailed documentation on System Architecture](./system-architecture/index.md)
+[//]: # (- **AWS Services**: List of AWS services used in our infrastructure.)
+
+[//]: # (- **Networking**: Description of networking configurations, including VPC, subnets, and security groups.)
+
+[//]: # (- **Compute**: Overview of compute resources such as EC2 instances, ECS clusters, or Lambda functions.)
+
+[//]: # (- **Storage**: Description of storage solutions like S3 buckets, EBS volumes, or RDS databases.)
+
+[//]: # (- **Monitoring and Logging**: Explanation of monitoring and logging solutions using CloudWatch, CloudTrail, etc.)
+
+[//]: # (- **Security**: Overview of security measures including IAM policies, encryption, and access controls.)
+
+[//]: # ()
+[//]: # ([Click here for detailed documentation on System Architecture]&#40;./system-architecture/index.md&#41;)
 
 ### Infrastructure Components <!-- {docsify-ignore} -->
 
@@ -34,16 +43,23 @@ This section provides an overview of the infrastructure components used to build
 
 [Click here for detailed documentation on Infrastructure Components](./infrastructure/index.md)
 
-### Application Architecture <!-- {docsify-ignore} -->
+[//]: # (### Application Architecture <!-- {docsify-ignore} -->)
 
-This section provides insights into the architecture of our application, including its design patterns, components, and interactions.
+[//]: # ()
+[//]: # (This section provides insights into the architecture of our application, including its design patterns, components, and interactions.)
 
-- **Overview**: Brief description of the application architecture and its key components.
-- **Microservices**: Explanation of the microservices architecture, if applicable.
-- **Data Management**: Description of data storage and management strategies.
-- **Scalability**: Discussion on how the application handles scalability and growth.
-- **Resilience**: Explanation of strategies for fault tolerance and disaster recovery.
-- **Integration**: Overview of integrations with other systems or services.
+[//]: # ()
+[//]: # (- **Overview**: Brief description of the application architecture and its key components.)
+
+[//]: # (- **Microservices**: Explanation of the microservices architecture, if applicable.)
+
+[//]: # (- **Data Management**: Description of data storage and management strategies.)
+
+[//]: # (- **Scalability**: Discussion on how the application handles scalability and growth.)
+
+[//]: # (- **Resilience**: Explanation of strategies for fault tolerance and disaster recovery.)
+
+[//]: # (- **Integration**: Overview of integrations with other systems or services.)
 
 [Click here for detailed documentation on Application Architecture](./application-architecture/index.md)
 

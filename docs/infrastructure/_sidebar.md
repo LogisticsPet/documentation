@@ -1,5 +1,5 @@
 - [Home](/)
 - [Infrastructure Overview](index.md)
 - [Terraform modules](./terraform/index.md)
-- [Terragrunt stacks](./terragrunt/index.md)
-- [Packer templates](./packer/index.md)
+- [CDK TF](./cdktf/index.md)
+[//]: # (- [Packer templates]&#40;./packer/index.md&#41;)
